@@ -7,7 +7,7 @@ Orchard Core possède 2 cibles différentes:
 - **Orchard Core Framework**: Un framework d'application pour construire des applications **modulaires** et **multi-locataires** en ASP.NET Core.
 - **Orchard Core CMS**: Un système de gestion de contenu Web (CMS) construit sur les bases du Framework Orchard Core.
 
-Il est important de noter les différences entre le framework le CMS. Certains développeurs qui veulent déveloper des applications SaaS seront uniquement intéressés par le framework modulaire. Les autres qui veulent construire des sites web administrables utiliseront le CMS construiront des modules pour améliorer leurs sites ou l'écosystème.  
+Il est important de noter les différences entre le framework le CMS. Certains développeurs qui veulent déveloper des applications SaaS seront uniquement intéressés par le framework modulaire. Les autres qui veulent construire des sites web administrables se concentreront sur le CMS et construiront des modules pour améliorer leurs sites ou l'écosystème.  
 
 [![Rejoignez le chat sur https://gitter.im/OrchardCMS/OrchardCore](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/OrchardCMS/OrchardCore?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![BSD-3-Clause License](https://img.shields.io/badge/license-BSD--3--Clause-blue.svg)](https://github.com/OrchardCMS/OrchardCore/blob/master/LICENSE)
@@ -16,7 +16,7 @@ Il est important de noter les différences entre le framework le CMS. Certains d
 
 ## Construire des solutions Software as a Service (SaaS) avec le Framework Orchard Core
 
-Il est très important de comprendre que le Framework Orchard Core est distribué indépendamment du CMS sur nuget.org. Nous avons créé des exemples d'applications sur <https://github.com/OrchardCMS/OrchardCore.Samples> qui vous guideront sur la façon de construire des applications **modulaires** et **multi-locataires** en utilisant juste le Framework Orchard Core sans aucun fonctionnalité CMS spécifique.
+Il est très important de comprendre que le Framework Orchard Core est distribué indépendamment du CMS sur nuget.org. Nous avons créé des exemples d'applications sur <https://github.com/OrchardCMS/OrchardCore.Samples> qui vous guideront sur la façon de construire des applications **modulaires** et **multi-locataires** en utilisant juste le Framework Orchard Core sans aucune fonctionnalité CMS spécifique.
 
 Un de nos objectifs est de mettre en place des écosystèmes basés sur la communité d'applications hébergées qui peuvent être étendues avec des modules, comme des systèmes e-commerce, des moteurs de blog et plus encore. Le Framework Orchard Core permet un environnement modulaire qui permet à différentes équipes de travailler sur des parties séparées d'une application et rend les composants réutilisables au travers des projets.
 
