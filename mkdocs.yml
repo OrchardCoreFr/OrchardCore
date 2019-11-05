@@ -42,33 +42,33 @@ markdown_extensions:
 
 # Page tree
 nav:
-    - About Orchard Core: README.md
-    - Getting started: 
+    - A Propos d'Orchard Core: README.md
+    - Bien démarrer: 
         - Create a CMS Web application: docs/getting-started/README.md
         - Code Generation Templates: docs/getting-started/templates/README.md
         - Create a Theme: docs/getting-started/theme.md
-    - How-to guides: 
-        - Follow the Guides: docs/guides/README.md
-        - Create a modular application: docs/guides/create-modular-application-mvc/README.md
-        - Create a website: docs/guides/create-cms-application/README.md
-        - Create a Decoupled CMS site: docs/guides/decoupled-cms/README.md
-        - Add an admin menu: docs/guides/add-admin-menu/README.md
-        - Install localization files: docs/guides/install-localization-files/README.md
-        - Integrate Facebook plugins: docs/guides/integrate-facebook-plugins/README.md
-        - Run code on startup: docs/guides/run-code-on-startup/README.md
-    - Key Topics: 
-        - Manage your Content: docs/topics/content-management/README.md
-        - Customize the Display: docs/topics/display/README.md
-        - Localize your site: docs/topics/localize/README.md
-        - Handle the Media: docs/topics/media/README.md
-        - Navigate between pages: docs/topics/navigation/README.md
-        - Query and Search data: docs/topics/search/README.md
-        - Secure your application: docs/topics/security/README.md
+    - Guides: 
+        - Suivez les Guides: docs/guides/README.md
+        - Créer une application modulaire: docs/guides/create-modular-application-mvc/README.md
+        - Créer un site web: docs/guides/create-cms-application/README.md
+        - Créer un site CMS découplé: docs/guides/decoupled-cms/README.md
+        - Ajouter un menu admin: docs/guides/add-admin-menu/README.md
+        - Installer des fichiers de localication: docs/guides/install-localization-files/README.md
+        - Integrater des plugins Facebook: docs/guides/integrate-facebook-plugins/README.md
+        - Exécuter du code dans le startup: docs/guides/run-code-on-startup/README.md
+    - Concepts clés: 
+        - Gérer votre Contenu: docs/topics/content-management/README.md
+        - Personnaliser l affichage: docs/topics/display/README.md
+        - Localiser votre site: docs/topics/localize/README.md
+        - Gérer les Médias: docs/topics/media/README.md
+        - Naviguer entre les pages: docs/topics/navigation/README.md
+        - Requête et Recherche de données: docs/topics/search/README.md
+        - Securiser votre application: docs/topics/security/README.md
 #        - Data: docs/topics/data/README.md
 #        - Configuration: docs/topics/configuration/README.md
         - Workflows: docs/topics/workflows/README.md
-    - Reference: 
-        - CMS Modules: 
+    - Référence: 
+        - Modules CMS: 
             - Content Types: docs/reference/modules/ContentTypes/README.md
             - Content Parts: 
                 - Add Parts to your Content: docs/reference/modules/ContentParts/README.md
@@ -105,7 +105,7 @@ nav:
                 - Twitter: docs/reference/modules/Twitter/README.md
                 - GitHub: docs/reference/modules/GitHub/README.md
                 - Google: docs/reference/modules/Google/README.md
-        - Core Modules: 
+        - Modules Core: 
     #        - How to use Core Modules: docs/reference/core/README.md
             - Contents: docs/reference/modules/Contents/README.md
             - Configuration: docs/reference/core/Configuration/README.md
