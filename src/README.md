@@ -1,28 +1,28 @@
 # Orchard Core
 
-Orchard Core is a redevelopment of [Orchard CMS](https://github.com/OrchardCMS/Orchard) on [ASP.NET Core](https://docs.microsoft.com/aspnet/core/). 
+Orchard Core une réimplémentation d'[Orchard CMS](https://github.com/OrchardCMS/Orchard) en [ASP.NET Core](https://docs.microsoft.com/fr-fr/aspnet/core/). 
 
-Orchard Core consists of two different targets:
+Orchard Core possède 2 cibles différentes:
 
-- **Orchard Core Framework**: An application framework for building **modular**, **multi-tenant** applications on ASP.NET Core.
-- **Orchard Core CMS**: A Web Content Management System (CMS) built on top of the Orchard Core Framework.
+- **Orchard Core Framework**: Un framework d'application pour construire des applications **modulaires** et **multi-locataires** en ASP.NET Core.
+- **Orchard Core CMS**: Un système de gestion de contenu Web (CMS) construit sur les bases du Framework Orchard Core.
 
-It’s important to note the differences between the framework and the CMS. Some developers who want to develop SaaS applications will only be interested in the modular framework. Others who want to build administrable websites will focus on the CMS and build modules to enhance their sites or the whole ecosystem.
+Il est important de noter les différences entre le framework le CMS. Certains développeurs qui veulent déveloper des applications SaaS seront uniquement intéressés par le framework modulaire. Les autres qui veulent construire des sites web administrables utiliseront le CMS construiront des modules pour améliorer leurs sites ou l'écosystème.  
 
-[![Join the chat at https://gitter.im/OrchardCMS/OrchardCore](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/OrchardCMS/OrchardCore?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Rejoignez le chat sur https://gitter.im/OrchardCMS/OrchardCore](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/OrchardCMS/OrchardCore?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![BSD-3-Clause License](https://img.shields.io/badge/license-BSD--3--Clause-blue.svg)](https://github.com/OrchardCMS/OrchardCore/blob/master/LICENSE)
-[![Documentation](https://readthedocs.org/projects/orchardcore/badge/)](https://orchardcore.readthedocs.io/en/latest/)
+[![Documentation](https://readthedocs.org/projects/orchardcorefr/badge/)](https://orchardcorefr.readthedocs.io/en/latest/)
 [![Crowdin](https://d322cqt584bo4o.cloudfront.net/orchard-core/localized.svg)](https://crowdin.com/project/orchard-core)
 
-## Building Software as a Service (SaaS) solutions with the Orchard Core Framework
+## Construire des solutions Software as a Service (SaaS) avec le Framework Orchard Core
 
-It’s very important to understand the Orchard Core Framework is distributed independently from the CMS on nuget.org. We’ve made some sample applications on <https://github.com/OrchardCMS/OrchardCore.Samples> that will guide you on how to build **modular** and **multi-tenant** applications using just Orchard Core Framework without any of the CMS specific features.
+Il est très important de comprendre que le Framework Orchard Core est distribué indépendamment du CMS sur nuget.org. Nous avons créé des exemples d'applications sur <https://github.com/OrchardCMS/OrchardCore.Samples> qui vous guideront sur la façon de construire des applications **modulaires** et **multi-locataires** en utilisant juste le Framework Orchard Core sans aucun fonctionnalité CMS spécifique.
 
-One of our goals is to enable community-based ecosystems of hosted applications which can be extended with modules, like e-commerce systems, blog engines and more. The Orchard Core Framework enables a modular environment that allows different teams to work on separate parts of an application and make components reusable across projects.
+Un de nos objectifs est de mettre en place des écosystèmes basés sur la communité d'applications hébergées qui peuvent être étendues avec des modules, comme des systèmes e-commerce, des moteurs de blog et plus encore. Le Framework Orchard Core permet un environnement modulaire qui permet à différentes équipes de travailler sur des parties séparées d'une application et rend les composants réutilisables au travers des projets.
 
-## Building Website with Orchard Core CMS
+## Construire un site web avec Orchard Core CMS
 
-Orchard Core CMS is a complete rewrite of Orchard CMS on ASP.NET Core. It’s not just a port as we wanted to improve the performance drastically and align as close as possible to the development models of ASP.NET Core.
+Orchard Core CMS est réimplémentation complète d'Orchard CMS en ASP.NET Core. Il ne s'agit pas juste d'un portage car nous voulions améliorer la performance de manière drastique et s'aligner le plus possible sur les modèles de développement d'ASP.NET Core.
 
 - **Performance**. This might the most obvious change when you start using Orchard Core CMS. It’s extremely fast for a CMS. So fast that we haven’t even cared about working on an output cache module. To give you an idea, without caching Orchard Core CMS is around 20 times faster than the previous version.
 
@@ -46,17 +46,17 @@ Orchard Core CMS is a complete rewrite of Orchard CMS on ASP.NET Core. It’s no
 
 - **GraphQL**. We provide a very flexible GraphQL API, such that any authorized external application can reuse your content, like SPA applications or static site generators.
 
-### Different website building strategies
+### Différentes stratégies de construction de site web 
 
 Orchard Core CMS supports all major site building strategies:
 
 - **Full CMS**. In this mode, the website uses a theme and templates to render your content, aiming for little to no custom development at all.
 
-- **Decoupled CMS**. The site starts off blank, apart from the content management back-end. You create all the templates you need with Razor Pages or MVC actions and access your content via the content services. Ref: <https://www.youtube.com/watch?v=yWpz8p-oaKg>
+- **Decoupled CMS**. The site starts off blank, apart from the content management back-end. You create all the templates you need with Razor Pages or MVC actions and access your content via the content services.
 
-- **Headless CMS**. The site only manages the content, and you create a separate application that will fetch the managed content using GraphQL or REST APIs. Ref: <https://www.youtube.com/watch?v=4o9zG17cfa0>
+- **Headless CMS**. The site only manages the content, and you create a separate application that will fetch the managed content using GraphQL or REST APIs.
 
-## Status
+## Statut
 
 The latest released version of Orchard Core is `1.0.0-rc1`.
 The release notes can be found on <https://github.com/OrchardCMS/OrchardCore/releases/tag/1.0.0-rc1>
@@ -65,17 +65,15 @@ The software is almost ready for final release. No feature development or enhanc
 
 Here is a more detailed [roadmap](https://github.com/OrchardCMS/OrchardCore/wiki/Roadmap).
 
-## Getting Started
+## Démarrer
 
 - Clone the repository using the command `git clone https://github.com/OrchardCMS/OrchardCore.git` and checkout the `master` branch for the latest release, or the `dev` branch for the cutting-edge version.
 
-- Watch the ASP.NET Community Standup video where Orchard Core was demonstrated: <https://www.youtube.com/watch?v=HeDjv3blBjQ&t=2246s&list=PL1rZQsJPBU2StolNg0aqvQswETPcYnNKL&index=24>
+- Watch the ASP.NET Community Standup video where Orchard Core was demonstrated: <https://www.youtube.com/watch?v=HeDjv3blBjQ&t=2246s&list=PL1rZQsJPBU2StolNg0aqvQswETPcYnNKL&index=24> 
 
 - Follow the samples on <https://github.com/OrchardCMS/OrchardCore.Samples> that will guide you on how to build **modular** and **multi-tenant** applications
 
-- Follow the tutorial inside the [Training Demo Module](https://github.com/Lombiq/Orchard-Training-Demo-Module) to learn how to develop Orchard Core modules.
-
-### Command line
+### Ligne de commande
 
 - Install the latest versions (current) for both Runtime and SDK of .NET Core from this page <https://www.microsoft.com/net/download/core>
 - Navigate to `D:\OrchardCore\src\OrchardCore.Cms.Web` or wherever your respective folder is on the command line in Administrator mode.
