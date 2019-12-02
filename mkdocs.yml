@@ -54,7 +54,7 @@ nav:
         - Créer un site CMS découplé: docs/guides/decoupled-cms/README.md
         - Ajouter un menu admin: docs/guides/add-admin-menu/README.md
         - Installer des fichiers de localication: docs/guides/install-localization-files/README.md
-        - Integrater des plugins Facebook: docs/guides/integrate-facebook-plugins/README.md
+        - Intégrer des plugins Facebook: docs/guides/integrate-facebook-plugins/README.md
         - Exécuter du code dans le startup: docs/guides/run-code-on-startup/README.md
     - Concepts clés: 
         - Gérer votre Contenu: docs/topics/content-management/README.md
@@ -63,7 +63,7 @@ nav:
         - Gérer les Médias: docs/topics/media/README.md
         - Naviguer entre les pages: docs/topics/navigation/README.md
         - Requête et Recherche de données: docs/topics/search/README.md
-        - Securiser votre application: docs/topics/security/README.md
+        - Sécuriser votre application: docs/topics/security/README.md
 #        - Data: docs/topics/data/README.md
 #        - Configuration: docs/topics/configuration/README.md
         - Workflows: docs/topics/workflows/README.md

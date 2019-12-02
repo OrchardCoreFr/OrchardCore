@@ -2,7 +2,7 @@
 
 Orchard Core une réimplémentation d'[Orchard CMS](https://github.com/OrchardCMS/Orchard) en [ASP.NET Core](https://docs.microsoft.com/fr-fr/aspnet/core/). 
 
-Orchard Core possède 2 cibles différentes:
+Orchard Core se compose de 2 cibles différentes:
 
 - **Orchard Core Framework**: Un framework d'application pour construire des applications **modulaires** et **multi-locataires** en ASP.NET Core.
 - **Orchard Core CMS**: Un système de gestion de contenu Web (CMS) construit sur les bases du Framework Orchard Core.
